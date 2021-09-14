@@ -7,7 +7,6 @@ const Transfer = () => {
 
     const [isFlipped, setIsFlipped] = useState(false);
     const [showModal, setShowModal] = useState(false);
-    const [lModal, setLModal] = useState(false)
     const [ewcModal, setEwcModal] = useState(false)
 
 
@@ -25,7 +24,7 @@ const Transfer = () => {
                             <p className={'text-xl text-gray-400 font-sans m-4 text-justify'}>Please pay the following
                                 invoice with your Ligtning Wallet</p>
                             <span className={'mx-4'}>in373256879598..</span>
-                            <img src="/img/smImage.jpg" alt="image" className={'w-14 h-14 mx-4 my-2'}/>
+                            <img src="/img/smImage.jpg" alt="folder" className={'w-14 h-14 mx-4 my-2'}/>
 
                             <p className={'text-xl text-gray-400 font-sans m-4 text-justify'}>You will receive 100 stats on EW</p>
                             <div className="flex flex-row justify-center">
